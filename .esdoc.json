@@ -1,0 +1,9 @@
+{
+    "source": {
+        "include": ["./js/accordion.js", "./js/section.js"]
+    },
+    "opts": {
+        "destination": "./docs"
+    },
+    "plugins": []
+  }

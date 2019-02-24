@@ -1,0 +1,49 @@
+.AccordionComponent-sectionTitle {
+
+    color: #fff;
+    background-color: #2196f3;
+    height: 35px;
+    font-size: 25px;
+    padding: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #fff;
+    cursor: pointer;
+    
+    &:after{
+        
+        content: '+';
+        position: absolute;
+        right: 15px;
+    
+    }
+    
+    &:hover{
+        
+        background-color: #2196f3; 
+    
+    }
+}
+
+.AccordionComponent-sectionTitle--active {
+    
+    &:after{
+        
+        content: '-'
+    
+    }
+
+}
+
+.AccordionComponent-sectionContent {
+    
+    color: #2196f3;
+    text-transform: capitalize;
+
+}
+
+.AccordionComponent-sectionContent--hideContent {
+    
+    display: none;
+
+}
